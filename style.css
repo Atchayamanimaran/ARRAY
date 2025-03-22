@@ -1,0 +1,57 @@
+h1{
+    font-size:50px;
+    font-family:serif;
+    color:black;
+    text-align: center;
+    justify-content: center;
+
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    align-items: center;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-image:url("https://cdn.pixabay.com/photo/2016/01/22/20/16/sunset-1156549_1280.jpg") ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input{
+    margin: 15px;
+    padding:7px;
+}
+
+button{
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    margin:4px;
+    text-align: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor:pointer;
+    
+}
+button:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    border : 3px solid grey;
+    border-radius: 80px;
+    width: 200px;
+    height: 20px;
+    text-align: center; 
+    color: black;
+}
+#box{
+    border-radius: 4px;
+    color: black;
+}
